@@ -1,0 +1,30 @@
+using System;
+
+namespace ConsoleApp38
+{
+    class Program
+    {
+        public void add(int a, int b)
+        {
+            Console.WriteLine(a+b);
+        }
+        public void add (double x,double y)
+        {
+            Console.WriteLine(x+y);
+        }
+        public void add (string s1,string s2 )
+        {
+            Console.WriteLine(s1 + s2);
+        }
+        static void Main(string[] args)
+        {
+            Program m = new Program();
+            m.add(5,6);
+            m.add(2.5, 4.4);
+            m.add("naman", "ashish");
+
+            Console.WriteLine("Hello World!");
+            Console.ReadLine();
+        }
+    }
+}
